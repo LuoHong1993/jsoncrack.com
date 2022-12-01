@@ -13,12 +13,6 @@ import useStored from "src/store/useStored";
 import { isValidJson } from "src/utils/isValidJson";
 import { ThemeProvider } from "styled-components";
 
-if (process.env.NODE_ENV !== "development") {
-  init({
-    dsn: "https://d3345591295d4dd1b8c579b62003d939@o1284435.ingest.sentry.io/6495191",
-    tracesSampleRate: 0.5,
-  });
-}
 
 function JsonCrack({ Component, pageProps }: AppProps) {
   const { query, pathname } = useRouter();
