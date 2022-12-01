@@ -1,7 +1,6 @@
 import React from "react";
 import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
-import { init } from "@sentry/nextjs";
 import { decompress } from "compress-json";
 import { Toaster } from "react-hot-toast";
 import { GoogleAnalytics } from "src/components/GoogleAnalytics";
