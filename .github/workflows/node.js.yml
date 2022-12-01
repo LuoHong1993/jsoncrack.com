@@ -22,6 +22,7 @@ jobs:
         node-version: 14.x
         cache: 'npm'
     - run: npm i
+    - run: npm run build
     - run: npm run deploy
     ## - name: Archive production artifacts
       ## uses: actions/upload-artifact@v2
