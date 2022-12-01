@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: build2
-        path: /home/runner/work/jsoncrack.com/jsoncrack.com
+        path: /home/runner/work/jsoncrack.com/jsoncrack.com/out
