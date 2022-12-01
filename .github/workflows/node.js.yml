@@ -23,9 +23,8 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    - run: npm run deploy
-    ## - name: Archive production artifacts
-      ## uses: actions/upload-artifact@v2
-      ## with:
-        ## name: build2
-        ## path: /home/runner/work
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: build2
+        path: /home/runner/work/jsoncrack.com/jsoncrack.com
