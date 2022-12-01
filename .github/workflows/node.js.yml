@@ -26,5 +26,5 @@ jobs:
     - name: Archive production artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: build
-        path: /home/runner/work/jsoncrack.com/jsoncrack.com/out
+        name: build2
+        path: /home/runner/work
